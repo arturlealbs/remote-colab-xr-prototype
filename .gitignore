@@ -9,11 +9,28 @@
 # ter outras tecnicas para reconstrução espacial além do slam,
 # eu teria que fazer uma interface para lidar com isso, ai 
 # eu colocaria ela nessa pasta "Servidor"
+
 *
-!*/
-**/*
-!FrenteUsuárioLocal/Assets/Scripts/**
-!FrenteUsuárioRemoto/Assets/Scripts/**
-!Servidor/**
+
 !.gitignore
 !README.md
+!Servidor/
+!Servidor/**
+
+!FrenteUsuárioLocal/
+FrenteUsuárioLocal/*
+!FrenteUsuárioLocal/Assets/
+FrenteUsuárioLocal/Assets/*
+!FrenteUsuárioLocal/Assets/Scripts/
+!FrenteUsuárioLocal/Assets/Scripts/**
+
+!FrenteUsuárioRemoto/
+FrenteUsuárioRemoto/*
+!FrenteUsuárioRemoto/Assets/
+FrenteUsuárioRemoto/Assets/*
+!FrenteUsuárioRemoto/Assets/Scripts/
+!FrenteUsuárioRemoto/Assets/Scripts/**
+FrenteUsuárioRemoto/Assets/Scripts/Legacy/
+FrenteUsuárioRemoto/Assets/Scripts/Legacy2/
+FrenteUsuárioRemoto/Assets/Scripts/Legacy.meta
+FrenteUsuárioRemoto/Assets/Scripts/Legacy2.meta
