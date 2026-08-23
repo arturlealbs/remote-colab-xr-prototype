@@ -1,0 +1,19 @@
+# Dado que já estamos usando o Unity Version Control
+# para as aplicações da Unity (estão com SDKs pesados),
+# eu vou jogar no github apenas o que está na pasta scripts,
+# pois seria a parte que eu fiz e que seria de interesse
+# o professor visualizar. Além disso, eu vou deixar o 
+# servidor aqui (quando eu refatorar ele). Atualmente, o servidor
+# é so um script dentro do repositório do Mast3r-Slam, então 
+# não faria sentido colocar ele. Mas, como o objetivo seria 
+# ter outras tecnicas para reconstrução espacial além do slam,
+# eu teria que fazer uma interface para lidar com isso, ai 
+# eu colocaria ela nessa pasta "Servidor"
+*
+!*/
+**/*
+!FrenteUsuárioLocal/Assets/Scripts/**
+!FrenteUsuárioRemoto/Assets/Scripts/**
+!Servidor/**
+!.gitignore
+!README.md
