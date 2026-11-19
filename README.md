@@ -1,3 +1,7 @@
+# OBSERVAÇÃO
+
+Dado que atualmente a aplicação está configurada para rodar especificamente na minha máquina, dados sensiveis, como meu endereço de ip, estão nos scripts. Antes de disponibilizar nesse repositório público, irei apagar partes do código e passar orientações em como configurar ao utilizar no computador.
+
 # Sistema de Colaboração Remota Baseado em XR e Reconstrução Espacial
 
 Este repositório contém o código-fonte principal (scripts) de um sistema de colaboração remota que utiliza Realidade Estendida (XR) e técnicas avançadas de reconstrução espacial em tempo real.
